@@ -27,6 +27,17 @@
         font-weight: 300;
         font-style: normal;
       }
+      @media (max-width: 600px) {
+        .myback {
+          margin: 100px 20px;
+        }
+        .qrcode {
+          margin: 50px auto;
+        }
+        .qrcode p {
+          font-size: 14px;
+        }
+      }
       .attribution {
         font-size: 11px;
         text-align: center;
@@ -70,7 +81,10 @@
     <div class="myback">
       <section class="qrcode">
         <figure class="figure">
-          <img src="images/image-qr-code.png" alt="qr-code" />
+          <img
+            src="images/image-qr-code.png"
+            alt="QR code linking to Frontend Mentor website"
+          />
           <figcaption>
             Improve your front-end skills by building projects
           </figcaption>
